@@ -2,39 +2,23 @@
   <h1>{{ msg }}</h1>
 
 <!-- My custom code -->
-<button class="outsideBtn" v-on:click="duplicate">Duplicate</button>
-<button class="outsideBtn" v-on:click="background">Background</button>
-<button class="outsideBtn" v-on:click="heading">Heading</button>
-<button class="outsideBtn" v-on:click="deleter">Delete</button>
+<div class="card">
 
-<div class="card" v-on:mouseover="hoover">
-  <h1 class="title">Chad of Cyber IST</h1>
+<img src="https://i.pinimg.com/564x/c4/81/c0/c481c067ad2e11fab13ffe39bc0fd975.jpg" alt="Card Image">
 
-  <img class="giaImg" src="https://media.discordapp.net/attachments/963095262363017246/1020131830323744788/unknown.png?width=468&height=468" alt="Professor Giacobe">
-  
-<div class="textbox">
-  <details>
-    <summary class="haxbtn">Details</summary>
-    <p class="description pScale">Professor Giacobe may look like a simple man but perceptions can be misleading. Underneath the facade of a simple college of IST professor lies the holiness of an <strong>IST GOD</strong>!</p>
-  </details>
+<h2>Welcome</h2>
 
-  </div>
+<p>I was tasked with making a card for this class. I decided to keep it simple and nice. I also decided to add my handsome face to it. </p>
+
+
+  <button class="cool-button">DETAILS</button>
+
 </div>
 
-
-  <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">
-      Vite Documentation
-    </a>
-    |
-    <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Documentation</a>
-  </p>
-
-  <button type="button" @click="state.count++">count is: {{ state.count }}</button>
-  <p>
-    Edit
-    <code>components/HelloWorld.vue</code> to test hot module replacement.
-  </p>
+<button id="duplicate">DUPLICATION MACHINE</button>
+<button id="change-color">COLOR CHANGING MACHINE</button>
+<button id="change-text">TEXT CHANGING MACHINE</button>
+<button class="delete">DELETING MACHINE</button>
 </template>
 
 <script setup>
